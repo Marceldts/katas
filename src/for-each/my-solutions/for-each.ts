@@ -1,4 +1,4 @@
-export function forEach<E>(list: E[], callback: (element: E) => void) {
+export function forEach<T>(list: T[], callback: (element: T) => void) {
   for (const element of list) {
     callback(element)
   }
