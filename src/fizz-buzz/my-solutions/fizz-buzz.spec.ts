@@ -2,7 +2,7 @@ import { describe, it, expect } from 'vitest'
 import { FizzBuzz, fizzBuzz } from './fizz-buzz'
 
 describe('fizzBuzz', () => {
-  it('should replace numbers with modulus === 15 to "fizzbuzz", numbers with modulus 5 to "buzz" and numbers with modulus 3 to "fizz"', () => {
+  it('should replace numbers with modulus 15 === 0 to "fizzbuzz", numbers with modulus 5 === 0 to "buzz" and numbers with modulus 3 === 0 to "fizz"', () => {
     const givenNumber = 15
     const expected: FizzBuzz[] = [
       1,
