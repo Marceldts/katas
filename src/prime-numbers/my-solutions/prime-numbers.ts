@@ -13,7 +13,6 @@ export const primeNumbers = (n: number): number[] => {
     }
     primeNumbers.pop()
   }
-  console.log('🚀 ~ primeNumbers ~ primeNumbers:', result)
   return result
 }
 
