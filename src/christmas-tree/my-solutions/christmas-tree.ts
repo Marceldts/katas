@@ -5,7 +5,6 @@ export const drawTree = (height: number): string => {
     tree += _drawRow(height, i)
   }
   tree += _drawTrunk(height)
-  console.log('🚀 ~ drawTree ~ tree:', tree)
   return tree
 }
 
