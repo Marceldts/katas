@@ -14,11 +14,9 @@ export const sing = (start: number, end: number = start): string => {
   if (start <= 0) return LAST_VERSE
   let result = ''
   for (let i = start; i >= end; i--) {
-    console.log('🚀 ~ sing ~ i:', i)
     result += _getVerse(i)
     if (i !== end) result += '\n'
   }
-  console.log('🚀 ~ sing ~ result:', result)
   return result
 }
 
